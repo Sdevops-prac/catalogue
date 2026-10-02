@@ -1,9 +1,9 @@
-pipeline {
+pipeline{
     agent {
-        node
+        node {
             label 'Workstation'
-        }
-    }
+            }
+           }
 
 stages {
     stage ('Docker build') {
